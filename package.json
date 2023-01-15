@@ -1,0 +1,22 @@
+{
+  "name": "conwords-generator",
+  "version": "0.1.2",
+  "description": "It is a basic crossword generator that utilizes genetic algorithms.",
+  "main": "src/ConwordsGenerator.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "jsdoc": "jsdoc src/ConwordsGenerator.js -d jsdoc"
+  },
+  "author": "fabnun",
+  "license": "ISC",
+  "keywords": [
+    "crossword",
+    "genetic algorithms",
+    "javascript",
+    "node"
+  ],
+  "dependencies": {
+    "math-random-seed": "^2.0.0",
+    "rfdc": "^1.3.0"
+  }
+}
