@@ -1,12 +1,12 @@
-**conwords-generator**d
+**conwords-generator**
 
-instalar conwords-generator
+Instalación:
 
 ```bash
 npm i conwords-generator
 ```
 
-importar conwords-generator
+Uso:
 
 ```js
 const ConwordsGenerator = require('conwords-generator');

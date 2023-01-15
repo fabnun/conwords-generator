@@ -1,6 +1,6 @@
 {
   "name": "conwords-generator",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Allows generating crosswords using genetic algorithms, based on a set of dictionaries of terms and definitions.",
   "main": "src/ConwordsGenerator.js",
   "scripts": {
