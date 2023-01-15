@@ -1,4 +1,6 @@
 const ConwordsGenerator = require('./ConwordsGenerator.js');
+// En tu codigo puedes usar:
+//const ConwordsGenerator = require('conwords-generator');
 
 /**
  * //descripción del ejemplo:
@@ -29,7 +31,7 @@ const ConwordsGenerator = require('./ConwordsGenerator.js');
     matriz = generador.iterar(matriz);
     console.log(`Iteración:${i + 1} Cruces:${matriz[0].cruces} Solas:${matriz[0].solas} ${Math.round((100 * matriz[0].llenado) / matriz[0].ancho / matriz[0].alto)}%`);
   }
-  //4) Aplica el metodo completar
+  //4) Se aplica el metodo completar para llenar espacios vacios
   console.log('Completando...\n');
   matriz = generador.completar(matriz);
 
