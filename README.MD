@@ -12,7 +12,7 @@ importar conwords-generator
 const ConwordsGenerator = require('conwords-generator');
 ```
 
-Dado uno o varios diccionarios de términos y definiciones, permite generar crucigramas mediante una implementación de algoritmos genéticos.
+Permite generar crucigramas mediante algoritmos genéticos, sobre un set de diccionarios de términos y definiciones.
 
 Los diccionarios deben ser arrays de arrays con la siguiente estructura:
 
@@ -38,7 +38,7 @@ Por ejemplo:
 ]
 ```
 
-[Ver mas diccionarios.](https://github.com/fabnun/conwords-generator/tree/main/src/diccionarios)
+[Ver mas diccionarios](https://github.com/fabnun/conwords-generator/tree/main/src/diccionarios)
 
 Antes de generar un crucigrama se debe realizar una compilación de diccionarios, donde se selecciona que diccionarios vas a usar. Esta compilación permite generar los crucigramas más rápido, y se realiza de la siguiente manera:
 

@@ -1,14 +1,19 @@
 {
   "name": "conwords-generator",
-  "version": "0.1.2",
-  "description": "It is a basic crossword generator that utilizes genetic algorithms.",
+  "version": "0.1.7",
+  "description": "Allows generating crosswords using genetic algorithms, based on a set of dictionaries of terms and definitions.",
   "main": "src/ConwordsGenerator.js",
   "scripts": {
     "test": "node src/index.js",
     "jsdoc": "jsdoc src/ConwordsGenerator.js -d jsdoc"
   },
-  "author": "fabnun",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabnun/conwords-generator.git"
+  },
+  "homepage": "https://conwords.app",
+  "author": "Fabián Núñez <fabnun@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "crossword",
     "genetic algorithms",
