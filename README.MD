@@ -38,7 +38,7 @@ Por ejemplo:
 ]
 ```
 
-https://github.com/fabnun/conwords-generator/tree/main/src/diccionarios
+[Ver mas diccionarios.](https://github.com/fabnun/conwords-generator/tree/main/src/diccionarios)
 
 Antes de generar un crucigrama se debe realizar una compilación de diccionarios, donde se selecciona que diccionarios vas a usar. Esta compilación permite generar los crucigramas más rápido, y se realiza de la siguiente manera:
 
@@ -143,5 +143,4 @@ Los parámetros por defecto del generador son:
    {Function} options.fnPuntaje - Es una función que asigna un puntaje al crucigrama y que depende del porcentaje de llenado, la cantidad de cruces de palabras y la cantidad de palabras solas (que no se cruzan con otras) ((llenado * 4 + 2 * cruces) / (1 + solas * 4) por defecto))
 ```
 
-Un ejemplo completo lo encuentras en
-https://github.com/fabnun/conwords-generator/blob/main/src/index.js
+[Ver código de ejemplo](https://github.com/fabnun/conwords-generator/blob/main/src/index.js)
