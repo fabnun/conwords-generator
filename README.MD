@@ -67,7 +67,7 @@ Luego se debe iniciar la matriz sobre la que trabajara el algoritmo, luego se de
 ```js
 //Genera una matriz inicial
 let matriz = generador.generar();
-//Itera 12 veces, mejorando la solución en cada iteración
+//Itera 8 veces, mejorando la solución en cada iteración
 for (let i = 0; i < 8; i++) {
   matriz = generador.iterar(matriz);
 }
