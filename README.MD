@@ -12,7 +12,7 @@ Uso:
 const ConwordsGenerator = require('conwords-generator');
 ```
 
-Permite generar crucigramas mediante algoritmos genéticos, sobre un set de diccionarios de términos y definiciones.
+Permite generar crucigramas mediante algoritmos genéticos sobre diccionarios de términos y definiciones.
 
 Los diccionarios deben ser arrays de arrays con la siguiente estructura:
 
@@ -76,7 +76,7 @@ for (let i = 0; i < 8; i++) {
 matriz = generador.completar(matriz);
 ```
 
-Luego puede ver el resultado mediante: console.log(generador.toString(matriz[0], true))
+Luego puede ver el resultado mediante: console.log(generador.toString(matriz, true))
 
 ```txt
     0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1
@@ -107,7 +107,7 @@ HORIZONTAL:
 ...
 ```
 
-Y tambien puede obtener el resultado en formato JSON mediante: generador.getPreguntas(matriz) con el siguiente formato:
+Y tambien puede obtener el resultado en formato JSON mediante: generador.getJSON(matriz) con el siguiente formato:
 
 ```txt
 [
