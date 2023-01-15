@@ -1,5 +1,7 @@
 **conwords-generator**
 
+Permite generar crucigramas mediante algoritmos genéticos sobre diccionarios de términos y definiciones.
+
 Instalación:
 
 ```bash
@@ -11,8 +13,6 @@ Uso:
 ```js
 const ConwordsGenerator = require('conwords-generator');
 ```
-
-Permite generar crucigramas mediante algoritmos genéticos sobre diccionarios de términos y definiciones.
 
 Los diccionarios deben ser arrays de arrays con la siguiente estructura:
 
