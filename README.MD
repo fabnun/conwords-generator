@@ -43,7 +43,7 @@ Por ejemplo:
 Antes de generar un crucigrama se debe realizar una compilación de diccionarios, donde se selecciona que diccionarios vas a usar. Esta compilación permite generar los crucigramas más rápido, y se realiza de la siguiente manera:
 
 ```js
-const compilacionInformatica = ConwordsGenerator.compilar([
+const compilacionInformatica = await ConwordsGenerator.compilar([
   // Agrega los diccionarios que sean necesarios
   diccionarioGPTInformatica,
   diccionarioTriviaInformatica,
